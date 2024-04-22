@@ -28,7 +28,7 @@ Open Colab and mount the Google drive and start training the model. The model is
 Inferencing: The trained weights can be inferenced on images, video mp4 files or streamed on YouTUbe video links using detect.py file. 
 
 Here's is the sample of object detection on single image file. 
-![yolov5/object_detection/](img015_PNG.rf.aa63d3fb7cab361fe9e2f4c306c59cb0)
+![yolov5/object_detection/img015_PNG.rf.aa63d3fb7cab361fe9e2f4c306c59cb0]()
 
 ### Evalutation: 
 The metrics followed to evaluate the model are Precision, Recall, mAP and F1 score. 
