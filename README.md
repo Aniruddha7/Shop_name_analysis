@@ -27,3 +27,10 @@ Open Colab and mount the Google drive and start training the model. The model is
 
 Inferencing: The trained weights can be inferenced on images, video mp4 files or streamed on YouTUbe video links using detect.py file. 
 
+Here's is the sample of object detection on single image file. 
+![](/yolov5/objecgt_detection/img015_PNG.rf.aa63d3fb7cab361fe9e2f4c306c59cb0)
+
+### Evalutation: 
+The metrics followed to evaluate the model are Precision, Recall, mAP and F1 score. 
+Highest F1 score of 0.646 with mAP 0.418 (0.5-0.95) at confidence and IOU threshold of 0.5 was achieved on validation dataset.
+
