@@ -23,7 +23,6 @@ Step3:
 Anchor boxes are calculated as each image undergoas annotation using K-means clustering and saves it as a txt file.
 
 Step4:
-
 Open Colab and mount the Google drive and start training the model. The model is trained for first 50 epochs with pretrained Yolov5L weights on MS COCO dataset and the custom weightfile is saved.Afterwards the model is again trained for next 75 epochs with finetuning and is cached. 
 
 Inferencing: The trained weights can be inferenced on images, video mp4 files or streamed on YouTUbe video links using detect.py file. 
