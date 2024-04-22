@@ -14,7 +14,7 @@
 6. Inference the model as the final step
 
 ### Step1:
-Here the downloaded images are annotated using VGG/LanelImg/Roboflow annotator tool and are put usder the folder final_dataset.zip. As we annotate each images, we get the corresponding .txt file that has respective annotations. The number of classes required are mentioned in data.yaml file.
+Here the downloaded images are annotated using VGG/LabelImg/Roboflow annotator tool and are put usder the folder final_dataset.zip. As we annotate each images, we get the corresponding .txt file that has respective annotations. The number of classes required are mentioned in data.yaml file.
 
 ### Step2:
 In this step the data into train, valid and test images. The dataset has 377 images and is split into 70%-20%-10% resepectively.
