@@ -13,16 +13,16 @@
 
 6. Inference the model as the final step
 
-Step1:
+### Step1:
 Here the downloaded images are annotated using VGG/LanelImg/Roboflow annotator tool and are put usder the folder final_dataset.zip. As we annotate each images, we get the corresponding .txt file that has respective annotations. The number of classes required are mentioned in data.yaml file.
 
-Step2:
+### Step2:
 In this step the data into train, valid and test images. The dataset has 377 images and is split into 70%-20%-10% resepectively.
 
-Step3:
+### Step3:
 Anchor boxes are calculated as each image undergoas annotation using K-means clustering and saves it as a txt file.
 
-Step4:
+### Step4:
 Open Colab and mount the Google drive and start training the model. The model is trained for first 50 epochs with pretrained Yolov5L weights on MS COCO dataset and the custom weightfile is saved.Afterwards the model is again trained for next 75 epochs with finetuning and is cached. 
 
 Inferencing: The trained weights can be inferenced on images, video mp4 files or streamed on YouTUbe video links using detect.py file. 
